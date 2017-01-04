@@ -1,7 +1,7 @@
 \documentclass[letterpaper]{article}
 
 \usepackage[T1]{fontenc}
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=0.65in]{geometry}
 \usepackage{lmodern}
 \usepackage{hyperref}
 \usepackage{microtype}
@@ -39,7 +39,7 @@ Udit Saxena\\
 \vspace{-1mm}
 \textbf{University of Massachusetts, Amherst}, MA \hfill Sept 2016 --
     Present\\
-MS in Computer Science, College of Information and Computer Sciences
+MS in Computer Science, College of Information and Computer Sciences \hfill GPA: 3.85
 \vspace{-2mm}
 \begin{description}[leftmargin=!, labelwidth=\widthof{Coursework },
         font=\normalfont]
@@ -57,13 +57,11 @@ MSc (Hons.) in Mathematics
 \emph{Product Engineer, Core Team}\\
 \vspace{-6mm}
 \begin{itemize}
-\item Worked on deploying and integrating large scale social media analytics systems to leverage brand owned media and earned media for data driven insights across more than 20 different social networks.
+\item Spearheaded the development of a Single Sign On solution using OpenSAML for Sprinklr as an Identity Provider to manage customer authorization sessions across multiple Sprinklr product lines.
 \vspace{-2mm}
-\item Designed and developed a Single Sign On solution using OpenSAML for Sprinklr as an Identity Provider to manage customer authorization sessions across multiple Sprinklr product lines.
+\item Engineered API integrations of  social media platforms - Twitter, Under Armor Record, Wordpress - and enterprise solutions - SAP C4C, SAP Hybris - and increased social media platform coverage by 15\%. 
 \vspace{-2mm}
-\item Administered API integrations of enterprise solutions - SAP C4C, SAP Hybris and other third party social networks - to allow customers to bridge compatibility issues or overcome cost of migration. 
-\vspace{-2mm}
-\item Engineered REST-based API extensions to the core module and streamlined the core audit module.
+\item Developed REST-based API extensions to the Sprinklr core module and streamlined the core audit module.
 \end{itemize}
 
 \vspace{-0.5mm}
@@ -71,41 +69,47 @@ MSc (Hons.) in Mathematics
 \emph{Intern, Adobe Captivate}\\
 \vspace{-6mm}
 \begin{itemize}
-\item Built the User Analytics feature to collect non-Personal Identity Information about Captivate users and setup a pipeline to clean, mine, analyze the data and provide insights for data driven decisions.
+\item Built the User Analytics feature to collect non-Personal Identity Information about Captivate users. 
+\vspace{-2mm}
+\item Setup a pipeline to clean, mine, analyze the data and provide data driven insights for the team.
 \end{itemize}
 
 \vspace{-0.6mm}
 
 \textbf{MLPACK, Google Summer of Code} \hfill May 2014 -- Aug 2014\\
-\emph{Intern, Core Contributor since May 2014}\\
+\emph{Summer Intern}\\
 \vspace{-6mm}
 \begin{itemize}
-\item Implemented Multi-Class Adaboost algorithms - Adaboost.M1, Adaboost.MH and the Adaboost.SAMME.
+\item Developed Machine Learning algorithms for MLPACK - an open source machine learning library with over 1200 stars on Github and multiple citations - and been a core contributor since May 2014.
+\vspace{-2mm}
+\item Implemented Multi-Class Adaboost algorithms - Adaboost.M1, Adaboost.MH and Adaboost.SAMME algorithms.
 \vspace{-2mm}
 \item Added weak learning algorithms - Decision Stumps using template based splitting, and Perceptrons (single layer neural networks) for the boosting algorithms suite.
 \end{itemize}
+
+\section*{Projects}
+\textbf{Generating descriptions of videos using RNNs:}
+Generating descriptions of videos by using a sequence to sequence model to map input videos to output sentences which describe the video. The model extracts the features from frames of the video using a deep Convolutional Neural Network and encodes these features. Using a multi-layered Recurrent Neural Network with LSTM units or GRUs, the model then decodes the video to its corresponding description.
+\vspace{1mm} \newline
+\textbf{Graph Analytics - PageRank:} 
+Implemented Google's PageRank algorithm on the Pregel graph analytics framework using the Bulk Synchronous Processing model to simulate large scale graphs and analyze results in a single node multi-threaded environment.
+\vspace{1mm} \newline
+\textbf{Wikipedia bot:}
+Developed a Wikipedia bot for vandalism detection in wiki edits. Given an edit of a Wikipedia article, the bot's task is to detect and flag ill-intentioned edits. Achieved an accuracy of 81\% using SVMs and 79\% using Naive Bayes Classifier.
 \section*{Research Experience}
 \textbf{Multivariate Time Series Analysis - Real Time Gesture Recognition},  \hfill
 Aug 2014 - Dec 2014
-\emph{Mentor: Prof. Navneet Goyal} \hfill
+\\ \emph{Mentor: Prof. Navneet Goyal} \hfill
 BITS Pilani\\
 \vspace{-6mm}
 \begin{itemize}
-\item Built a model which accounts for the real time factor of most naturally occurring time series and is able to handle time series frame by frame, thereby recognizing an early stopping criterion for faster recognition. 
+\item Built a model to account for the real time factor of most human gestures as naturally occurring time series and to handle these time series frame by frame, and recognize an early stopping criterion for faster recognition. 
 \vspace{-2mm}
 \item Achieved a recognition rate of 93 percent on the AUSLAN (Australian Sign Language) Dataset across 2300 instances and a recognition rate of 91 percent on the Daily Sports and Activities Dataset across 9000 instances using 5 fold stratified cross validation.
-\vspace{-2mm}
-\item Currently working on a paper on the same.
 \end{itemize}
 
 \section*{Skills}
 \begin{itemize}
 \item Java, C++, Python, MATLAB; Git, SVN; Linux; MongoDB, Elasticsearch, MySQL
 \end{itemize}
-
-\section*{Projects}
-\textbf{Wikipedia bot:}
-Wikipedia bot for vandalism detection. Given an edit of a Wikipedia article, the bot's task is to detect and flag ill-intentioned edits. Achieved an accuracy of 81 percent using SVM.\\
-\textbf{Compiler:}
-Designed a complete functional compiler in Python for a toy language as a part of the course Programming Languages and Compiler Construction.
 \end{document}
